@@ -1,12 +1,10 @@
-# FullStackDataProject
+# Full Stack Todo Application
 
-Full Stack Todo Application
-
-Overview
+# Overview
 
 This project is a full-stack web application for managing todo lists. It utilizes PostgreSQL for data storage, Flask for backend logic, and HTML templates with JavaScript for the frontend. The goal of the project was to learn and implement core web development concepts, including database interactions, API endpoints, and CRUD operations.
 
-Technologies Used
+# Technologies Used
 
 PostgreSQL: Our database system, responsible for storing all persistent data.
 
@@ -18,7 +16,7 @@ Flask-Migrate: A tool to manage database schema changes through versioned migrat
 
 HTML, CSS, JavaScript: HTML templates were used for frontend layouts, with JavaScript for dynamic user interactions.
 
-Key Features
+# Key Features
 
 Database Setup: PostgreSQL serves as the backend database. A schema file (schema.sql) defines the database structure, while a seed file (seed.sql) provides initial data.
 
@@ -34,7 +32,7 @@ Front-End Interface: Built dynamic and user-friendly pages with HTML templates. 
 
 Relationships: Established relationships between TodoList and Todo to ensure data is structured logically.
 
-How It Works
+# How It Works
 
 The application starts a web server using Flask.
 
@@ -46,6 +44,6 @@ Flask-Migrate tracks changes to the database schema, similar to version control 
 
 The HTML templates combined with Flask's rendering create the user interface, while JavaScript adds interactivity without needing a full page reload.
 
-Summary
+# Summary
 
 This project showcases my understanding of full-stack web development, including setting up a database, creating an API, developing a frontend, and handling interactions dynamically. It emphasizes separation of concerns, modularity, and the use of modern development tools and frameworks to build a functional, data-driven web application.
